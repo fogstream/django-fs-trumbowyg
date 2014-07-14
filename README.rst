@@ -51,5 +51,5 @@ Use ``TrumbowygWidget`` in your forms::
 Credits
 =======
 
-`Fogstream <http://fogstream.ru/>`_
-`Alex-D <http://alex-d.fr/>`_
+- `Fogstream <http://fogstream.ru/>`_
+- `Alex-D <http://alex-d.fr/>`_
