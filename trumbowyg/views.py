@@ -28,4 +28,5 @@ def upload_image(request):
         context = {'message': 'uploadSuccess', 'file': default_storage.url(real_path)}
     else:
         context = {'message': image_form.errors['image'][0]}
+
     return HttpResponse(json.dumps(context), content_type='application/json')
