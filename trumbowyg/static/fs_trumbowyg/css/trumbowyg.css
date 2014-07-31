@@ -22,3 +22,8 @@ Overriding for: Django Admin, Django Suit.
     padding: 0;
     width: auto;
 }
+
+.trumbowyg-button-pane li button.trumbowyg-video-button
+{
+    background-position: 5px -520px
+}

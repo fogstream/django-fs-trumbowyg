@@ -19,6 +19,7 @@ class TrumbowygWidget(Textarea):
             'fs_trumbowyg/trumbowyg/trumbowyg.min.js',
             'fs_trumbowyg/trumbowyg/langs/ru.js',
             'fs_trumbowyg/js/trumbowyg.upload.js',
+            'fs_trumbowyg/js/trumbowyg.video.js',
         )
 
     def render(self, name, value, attrs=None):
@@ -34,7 +35,7 @@ class TrumbowygWidget(Textarea):
                         "formatting",
                         "|", $.trumbowyg.btnsGrps.design,
                         "|", "link",
-                        "|", "upload",
+                        "|", "upload", "video",
                         "|", $.trumbowyg.btnsGrps.justify,
                         "|", $.trumbowyg.btnsGrps.lists,
                         "|", "horizontalRule",
